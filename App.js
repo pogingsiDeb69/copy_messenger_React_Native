@@ -26,107 +26,217 @@ export default function App() {
       </View>
       <View style={styles.userlist}>
         <View>
-          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/334220354_644916443865273_2115166916198197036_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeHrPFVU6AY6LfUDeKYdWHSSsGKNjeLEJp2wYo2N4sQmnXDec6aPTx-b6jSvePpSMu_pbfJKkGxpOc6uQgXrh5Wv&_nc_ohc=F_LysTvZJcAAX_IXnv0&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfBotgipCpVB_KLy0McbHUaD54Gskx66AgN_PTZyNFxjLg&oe=64FBF638' }} style={styles.userslisttop} />
-          <Text style={styles.userlistsname}>Nelbrey Jillian</Text><Text style={styles.userlistsname}> C. Escuadro</Text>
+          <View style={{justifyContent:'center', alignContent:'center', alignSelf:'center'}}>
+            <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
+            <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+              <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+              </View>
+            </View>
+          </View>
+          <View style={{alignContent:'center'}}>
+            <Text style={styles.userlistsname}>Alyssa Mae</Text><Text style={styles.userlistsname}>Dequina</Text>
+          </View>
+
         </View>
+        <View>
+          <View>
+            <Image source={{ uri: 'https://scontent.fmnl17-2.fna.fbcdn.net/v/t39.30808-6/215632783_4300528570014755_37099658016417173_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFB9Fh1ElNEO6blF8ruR8FK2uHgD66oBDHa4eAPrqgEMWUsZsolqmvn_9_CH_IPqbCW8Ws9MoYk8_ORuGK9dW7t&_nc_ohc=2ha8IFfz0k0AX_Dt41P&_nc_oc=AQk169dnSex9KkOt_bqm8fEF_2WBAuA0jdrXcWUBfx6nOcp0lAFz7uaOBluBrjjmBAA&_nc_ht=scontent.fmnl17-2.fna&oh=00_AfAZ_TzF7YXy79lfNqHCOL7k1Fmage4FWozv6ReOTMYBzw&oe=64FC9888' }} style={styles.userslisttop} />
+            <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+              <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+              </View>
+            </View>
+          </View>
+          <View style={{alignContent:'center'}}>
+            <Text style={styles.userlistsname}>Athenasia</Text><Text style={styles.userlistsname}>Fides</Text>
+
+          </View>
+        </View>
+        <View>
+          <View>
+            <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/324243268_872697383774386_6025411213792331187_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeGQTWoaGJ9EbiEth5TmM70tOvAXGxJRx2M68BcbElHHY5r-SHgaxRzyknHG3Dy2wHH6ibqlmDXOIfGvftKm27Na&_nc_ohc=CwL84ayDw30AX8lRBD-&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfChPfGIdVmQ7nMK_WaTqzNcfhqIW2_EeThUpgKzBP7N3w&oe=64FC31CC' }} style={styles.userslisttop} />
+            <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+              <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+              </View>
+            </View>
+          </View>
+          <View style={{alignContent:'center'}}>
+            <Text style={styles.userlistsname}>Lovelyn</Text><Text style={styles.userlistsname}>Magsino</Text>
+
+          </View>
+        </View>
+        <View>
+          <View>
+            <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/327608177_566067635405306_6524142233386262693_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeE9OxXdn-L96lOlionWrEeOrtrQAP1I2Lau2tAA_UjYtmKtyDztYVp-FagdGDdYvogDZGIIJChg0czFyVKYRIxA&_nc_ohc=5MziCwEoW8YAX_tpcdO&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfDKQXTiZP_5ma31oc47nmpozEre5qvQVQJlfSkSOqCPmQ&oe=64FC145A' }} style={styles.userslisttop} />
+            <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+              <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+              </View>
+            </View>
+          </View>
+          <View style={{justifyContent:'center'}}>
+            <Text style={styles.userlistsname}>Norie</Text><Text style={styles.userlistsname}>Hangad</Text>
+
+          </View>
+        </View>
+        <View>
+          <View>
+            <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/334220354_644916443865273_2115166916198197036_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeHrPFVU6AY6LfUDeKYdWHSSsGKNjeLEJp2wYo2N4sQmnXDec6aPTx-b6jSvePpSMu_pbfJKkGxpOc6uQgXrh5Wv&_nc_ohc=F_LysTvZJcAAX_IXnv0&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfBotgipCpVB_KLy0McbHUaD54Gskx66AgN_PTZyNFxjLg&oe=64FBF638' }} style={styles.userslisttop} />
+            <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+              <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+              </View>
+            </View>
+          </View>
+          <View>
+            <Text style={styles.userlistsname}>Nelbrey Jillian</Text><Text style={styles.userlistsname}> C. Escuadro</Text>
+
+          </View>
+        </View>
+
+
+
+      </View>
+      <View style={styles.chatss}>
+        <View style={{ flexDirection: 'row' }}>
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
+          <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+            <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+            </View>
+          </View>
+        </View>
+        <View style={styles.chat_content}>
+          <Text style={styles.username}>Alyssa Mae Dequina</Text>
+          <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
+
+        </View>
+        <View style={{ alignContent: 'right', }}>
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.seenImage} />
+
+
+        </View>
+      </View>
+      <View style={styles.chatss}>
         <View>
           <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
-          <Text style={styles.userlistsname}>Alyssa Mae</Text><Text style={styles.userlistsname}>Dequina</Text>
+          <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+            <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+            </View>
+          </View>
         </View>
-        <View>
-          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/324243268_872697383774386_6025411213792331187_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeGQTWoaGJ9EbiEth5TmM70tOvAXGxJRx2M68BcbElHHY5r-SHgaxRzyknHG3Dy2wHH6ibqlmDXOIfGvftKm27Na&_nc_ohc=CwL84ayDw30AX8lRBD-&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfChPfGIdVmQ7nMK_WaTqzNcfhqIW2_EeThUpgKzBP7N3w&oe=64FC31CC' }} style={styles.userslisttop} />
-          <Text style={styles.userlistsname}>Lovelyn</Text><Text style={styles.userlistsname}>Magsino</Text>
+        <View style={styles.chat_content}>
+          <Text style={styles.username}>Alyssa Mae Dequina</Text>
+          <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
         </View>
-        <View>
-          <Image source={{ uri: 'https://scontent.fmnl17-2.fna.fbcdn.net/v/t39.30808-6/215632783_4300528570014755_37099658016417173_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFB9Fh1ElNEO6blF8ruR8FK2uHgD66oBDHa4eAPrqgEMWUsZsolqmvn_9_CH_IPqbCW8Ws9MoYk8_ORuGK9dW7t&_nc_ohc=2ha8IFfz0k0AX_Dt41P&_nc_oc=AQk169dnSex9KkOt_bqm8fEF_2WBAuA0jdrXcWUBfx6nOcp0lAFz7uaOBluBrjjmBAA&_nc_ht=scontent.fmnl17-2.fna&oh=00_AfAZ_TzF7YXy79lfNqHCOL7k1Fmage4FWozv6ReOTMYBzw&oe=64FC9888' }} style={styles.userslisttop} />
-          <Text style={styles.userlistsname}>Athenasia</Text><Text style={styles.userlistsname}>Fides</Text>
-        </View>
-        <View>
-          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/327608177_566067635405306_6524142233386262693_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeE9OxXdn-L96lOlionWrEeOrtrQAP1I2Lau2tAA_UjYtmKtyDztYVp-FagdGDdYvogDZGIIJChg0czFyVKYRIxA&_nc_ohc=5MziCwEoW8YAX_tpcdO&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfDKQXTiZP_5ma31oc47nmpozEre5qvQVQJlfSkSOqCPmQ&oe=64FC145A' }} style={styles.userslisttop} />
-          <Text style={styles.userlistsname}>Norie</Text><Text style={styles.userlistsname}>Hangad</Text>
-        </View>
-       
+        <View style={{ alignContent: 'right', }}>
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.seenImage} />
 
 
+        </View>
       </View>
       <View style={styles.chatss}>
         <View>
-        <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
-        
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
+          <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+            <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+            </View>
+          </View>
         </View>
         <View style={styles.chat_content}>
           <Text style={styles.username}>Alyssa Mae Dequina</Text>
           <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
         </View>
+        <View style={{ alignContent: 'right', }}>
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.seenImage} />
+
+
+        </View>
       </View>
       <View style={styles.chatss}>
         <View>
-        <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
-        
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
+          <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+            <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+            </View>
+          </View>
         </View>
         <View style={styles.chat_content}>
           <Text style={styles.username}>Alyssa Mae Dequina</Text>
           <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
         </View>
-      </View>
-      <View style={styles.chatss}>
-        <View>
-        <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
-        
-        </View>
-        <View style={styles.chat_content}>
-          <Text style={styles.username}>Alyssa Mae Dequina</Text>
-          <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
-        </View>
-      </View>
-      <View style={styles.chatss}>
-        <View>
-        <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
-        
-        </View>
-        <View style={styles.chat_content}>
-          <Text style={styles.username}>Alyssa Mae Dequina</Text>
-          <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
+        <View style={{ alignContent: 'right', }}>
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.seenImage} />
+
+
         </View>
       </View><View style={styles.chatss}>
         <View>
-        <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
-        
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
+          <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+            <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+            </View>
+          </View>
         </View>
         <View style={styles.chat_content}>
           <Text style={styles.username}>Alyssa Mae Dequina</Text>
           <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
+        </View>
+        <View style={{ alignContent: 'right', }}>
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.seenImage} />
+
+
         </View>
       </View>
       <View style={styles.chatss}>
         <View>
-        <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
-        
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
+          <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+            <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+            </View>
+          </View>
         </View>
         <View style={styles.chat_content}>
           <Text style={styles.username}>Alyssa Mae Dequina</Text>
           <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
+        </View>
+        <View style={{ alignContent: 'right', }}>
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.seenImage} />
+
+
         </View>
       </View>
       <View style={styles.chatss}>
         <View>
-        <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
-        
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
+          <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+            <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+            </View>
+          </View>
         </View>
         <View style={styles.chat_content}>
           <Text style={styles.username}>Alyssa Mae Dequina</Text>
           <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
+        </View>
+        <View style={{ alignContent: 'right', }}>
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.seenImage} />
+
+
         </View>
       </View><View style={styles.chatss}>
-      <View>
-      <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
-      
+        <View>
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.userslisttop} />
+          <View style={{ backgroundColor: 'white', height: 20, width: 20, borderRadius: 80, position: 'absolute', marginTop: 50, marginLeft: 40, alignContent: 'center' }}>
+            <View style={{ backgroundColor: 'green', height: 15, width: 15, borderRadius: 80, alignSelf: 'center', marginTop: 2 }}>
+            </View>
+          </View>
+        </View>
+        <View style={styles.chat_content}>
+          <Text style={styles.username}>Alyssa Mae Dequina</Text>
+          <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
+        </View>
+        <View style={{ alignContent: 'right', }}>
+          <Image source={{ uri: 'https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/310850586_6236771983038223_6843745536045917716_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFIl6bqNSHlzdJKRIpE_ySv-Yi3B8ionfH5iLcHyKid8b2LUQJloOaApPKqT9OJrWGhtRkXXrD_tFElhLLkeUFW&_nc_ohc=HxGQjhTMrcAAX995dqY&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfC3kDQ_Q8Z_mPBCKO13LJReFnwuD-aIM30JqUsbn-I5oQ&oe=64FB73CE' }} style={styles.seenImage} />
+
+
+        </View>
       </View>
-      <View style={styles.chat_content}>
-        <Text style={styles.username}>Alyssa Mae Dequina</Text>
-        <Text style={styles.chat_contents}>Take your time sa dra. 22:25</Text>
-      </View>
-    </View>
 
 
     </View>
@@ -193,28 +303,39 @@ const styles = StyleSheet.create({
   userlist: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-    
-    alignContent: 'center'
-    
-  },
-
-  userlistsname:{
-    flexWrap:'nowrap',
-    justifyContent:'left', 
+    columnGap: 15,
+    alignContent: 'center',
+    alignSelf:'center'
 
   },
-  chatss:{
+
+  userlistsname: {
+    textAlign:'center',
+    justifyContent: 'center',
+
+  },
+  chatss: {
     justifyContent: 'flex-start',
-    flexDirection:'row',
+    flexDirection: 'row',
   },
-  chat_content:{  
+  chat_content: {
     paddingLeft: 20,
 
   },
-  username:{
+  username: {
     fontSize: 20,
     alignSelf: 'flex-start',
     marginTop: 15,
+    marginRight: 70,
+
+  },
+  seenImage: {
+    borderRadius: 80,
+    height: 20,
+    width: 20,
+    marginTop: 30,
+
+    alignSelf: 'left',
   },
 
 
